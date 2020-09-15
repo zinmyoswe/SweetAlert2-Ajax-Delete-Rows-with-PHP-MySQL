@@ -21,7 +21,7 @@
  <td><?php echo $product_id; ?></td>
         <td><?php echo $product_name; ?></td>
  <td> 
- <a class="btn btn-sm btn-danger" id="delete_product" data-id="<?php echo $product_id; ?>" href="javascript:void(0)"><i class="glyphicon glyphicon-trash"></i></a>
+ <a class="btn btn-sm btn-danger" id="delete_product" data-id="<?php echo $product_id; ?>" href="javascript:void(0)"><i class="fa fa-trash"></i></a>
  </td>
  </tr>
  <?php
